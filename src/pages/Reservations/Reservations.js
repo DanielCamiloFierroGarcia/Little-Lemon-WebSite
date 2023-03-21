@@ -1,5 +1,5 @@
 import React from "react";
-import BookingForm from "../../components/Booking/Booking.js";
+import BookingForm from "../../../components/Booking/Booking.js";
 
 export default function Reservations({ availableTimes, dispatch, submitForm }) {
   return (

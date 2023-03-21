@@ -1,10 +1,10 @@
-import Home from "../../pages/home/Home.js";
-import About from "../../pages/about/About.js";
-import Login from "../../pages/login/Login.js";
-import Order from "../../pages/order/Order.js";
-import Reservations from "../../pages/reservations/Reservations.js";
-import Menu from "../../pages/menu/Menu.js";
-import BookingConfirmed from "../../pages/booking-confirmed/BookingConfirmed.js";
+import Home from "../src/pages/Home/Home.js";
+import About from "../src/pages/about/About.js";
+import Login from "../src/pages/login/login.js";
+import Order from "../src/pages/Order/Order.js";
+import Reservations from "../src/pages/Reservations/Reservations.js";
+import Menu from "../src/pages/Menu/Menu.js";
+import BookingConfirmed from "../src/pages/Booking/Booking.js";
 import { useState, useReducer, useEffect } from "react";
 import { fetchAPI, submitAPI } from "../../apis/reservation-api.js";
 import { Route, Routes, useNavigate } from "react-router-dom";

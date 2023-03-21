@@ -19,14 +19,14 @@ export default function AboutSection() {
       </section>
       <section>
         <img
-          src="/restaurant-chef-b.jpg"
+          src="/chef.jpg"
           alt="restaurant chef"
           width="250"
           height="300"
         />
         <img
-          src="/mario-and-adrian-a.jpg"
-          alt="restaurant chef"
+          src="/customer.jpg"
+          alt="restaurant customers"
           width="250"
           height="300"
         />
